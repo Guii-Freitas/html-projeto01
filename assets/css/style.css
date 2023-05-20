@@ -1,0 +1,341 @@
+/*RESET CSS*/
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: Century;
+
+} 
+
+
+
+body{
+
+    background-position: center;
+    background: url(../img/fundo1.jpg);
+    background-size: cover;
+    
+}
+
+.principal{
+
+    width: 100%;
+    display: flex;
+    padding-top: 10vh;
+
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 100px;
+    align-items: center;
+    background-color: #0000006e;
+    height: 100px;
+    
+    
+}
+
+ul{
+
+    list-style: none;
+    display: flex;
+    
+}
+
+ul li a{
+
+    display: flex;
+    text-decoration: none;
+    padding: 1rem;
+    margin-inline: 30px;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    border: 1px solid transparent;
+    transition: 1 ease-out;
+    border-radius: 15px;
+
+}
+
+ul li a:hover{
+
+    background-color: #0000006e;
+
+}
+
+.guitas .logo img{
+
+    display: flex;
+    justify-content: space-between;
+    width: 8rem;
+    margin-left: 3rem;
+    align-items: center;
+
+}
+
+
+.search{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.search input{
+
+    border: 1px solid white;
+
+}
+
+.search img{
+
+    width: 33px;
+    height: 28px;
+
+}
+
+.search .btn{
+
+    border-radius: 0 10px 10px 0;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 23%;
+    cursor: pointer;
+
+}
+
+input::placeholder{
+
+    color: white;
+
+}
+
+.content{
+
+    margin: 0 10rem;
+    background-color: #0000006e;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 20px;
+    flex-wrap: wrap;
+
+}
+
+.content .par{
+
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px; 
+    text-align: left;
+
+}
+
+.content h1{
+
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+
+.content .cn{
+
+    width: 160px;
+    height: 40px;
+    background: #5FC8DB;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.content .cn a{
+
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+
+}
+
+.cn:hover{
+
+    background-color: black;
+
+}
+
+.content span{
+
+    color: #5FC8DB;
+    font-size: 60px;
+
+}
+
+.form{
+
+    width: 350px;
+    height: 25rem;
+    background-color: #0000006e;
+    top: 25%;
+    left: 75%;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+
+.form h2{
+
+    width: 95%;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    background-color: #5FC8DB;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+
+.form p{
+
+    color: white;
+    
+}
+
+.form input{
+
+    width: 99%;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus{
+
+    outline: none;
+
+}
+
+::placeholder{
+
+    color: white;
+    font-family: Arial;
+
+}
+
+.btnn{
+
+    width: 95%;
+    height: 40px;
+    background: #5FC8DB;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+
+}
+
+.btnn:hover{
+
+    background: black;
+
+}
+
+.btnn a{
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.form .link{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.form .link a{
+
+    text-decoration: none;
+    color: #5FC8DB;
+
+}
+
+.lc {
+
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+.social-icons a{
+
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.social-icons{
+
+    color: white;
+    font-size: 30px;
+    padding-left: 15%;
+    padding-top: 5%;
+    align-content: Left;
+    width: 65%;
+    text-align: center;
+    
+}
+
+.txt{
+
+    max-width: 800px;
+
+
+}
+
+.txt h1{
+
+    color: white;
+
+}
+
+.txt p{
+
+    color: white;
+
+}
+
+
+
